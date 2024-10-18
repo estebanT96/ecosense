@@ -70,5 +70,12 @@ nav {
   background-color: rgb(10, 158, 10);
 }
 
-.nav__link:hover + .link__underline {
+.nav__link i {
+  opacity: 0;
+  transition: opacity 0.5s ease, color 0.5s ease; /* Smooth transition */
+}
+
+.nav__link a:hover + i {
+  opacity: 1;
+  color: green; /* You can change this to any color you want */
 }
