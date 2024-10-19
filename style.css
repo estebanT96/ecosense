@@ -30,7 +30,7 @@ nav {
 .nav__links {
   display: flex;
   list-style-type: none;
-  width: 700px;
+  width: 800px;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,17 +40,22 @@ nav {
 }
 
 .fa-leaf {
+  font-size: 17px;
   position: absolute;
   left: 0;
   bottom: 0;
-  transform: translate(-120%, -10%);
+  transform: translate(-115%, -15%);
 }
 
 .analyze__link {
-  background: linear-gradient(90deg, #ff0000, #ffa700, #fff400, #a3ff00, #2cba00);
-  padding: 10px 26px;
+  background-color: #35384b;
+  padding: 10px 28px;
   border: none;
   border-radius: 50px;
+}
+
+.nav__link {
+  margin-right: 12px;
 }
 
 .nav__link a {
@@ -87,7 +92,7 @@ nav {
 }
 
 .analyze__area {
-  background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #1dd1a1);
+  background: linear-gradient(90deg, #ff0000, #4dff00, #fff400, #a3ff00, #2cba00);
   background-size: 400% 400%; /* Scale the background for a better effect */
   height: 100vh;
   text-decoration: none;
