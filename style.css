@@ -477,9 +477,6 @@ nav {
   filter: saturate(190%);
 }
 
-.header__img--text {
-  
-}
 
 .header__description--container .header__img--text {
   background-color: rgba(110, 134, 3, 0.685);
