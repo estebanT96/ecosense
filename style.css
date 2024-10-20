@@ -121,7 +121,8 @@ nav {
   height: 300px;
 }
 
-.mosaic1 {
+.mosaic1,
+.mosaic2 {
   background-color: rgb(10, 190, 10);
   display: flex;
   flex-direction: column;
@@ -165,6 +166,35 @@ nav {
   background-color: rgb(214, 211, 20);
 }
 
+.mosaic2__squares--wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.mosaic2__square2--rows {
+  margin-right: 2px;
+  width: 50%;
+  background-color: rgb(17, 211, 17);
+  border-radius: 10px;
+  border: 3.5px solid rgb(240, 240, 240);
+}
+
+.mosaic2__square3--rows {
+  margin-left: 2px;
+  width: 50%;
+  background-color: rgb(117, 226, 16);
+  border-radius: 10px;
+  border: 3.5px solid rgb(240, 240, 240);
+}
+
+.mosaic2__squares--row1, .mosaic2__squares--row2 {
+  height: calc(100%/40);
+  width: 100%;
+  display: flex;
+}
+
+
+
 .mosaic3 {
   background-color: rgb(19, 83, 201);
 }
@@ -190,8 +220,10 @@ nav {
 
 .mosaic1__square1--rows:hover,
 .mosaic1__square2--rows:hover,
-.mosaic1__square3--rows:hover {
-  opacity: 80%;
+.mosaic1__square3--rows:hover,
+.mosaic2__square2--rows:hover,
+.mosaic2__square3--rows:hover {
+  opacity: 85%;
   transition: opacity ease-in 10ms;
 }
 
@@ -226,7 +258,9 @@ nav {
 }
 
 .mosaic1__square2--square,
-.mosaic1__square3--square {
+.mosaic1__square3--square,
+.mosaic2__square2--square,
+.mosaic2__square3--square {
   background-color: transparent;
   height: 100%;
   width: calc(100% / 20);
@@ -236,7 +270,9 @@ nav {
 
 .square:hover,
 .mosaic1__square2--square:hover,
-.mosaic1__square3--square:hover {
+.mosaic1__square3--square:hover,
+.mosaic2__square2--square:hover,
+.mosaic2__square3--square:hover {
   transform: scale(1.5);
   background-color: white;
   transition: background-color ease-in 10ms;
