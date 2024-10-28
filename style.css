@@ -24,6 +24,10 @@ nav {
   padding: 0 4px;
 }
 
+.logo__clickable {
+  text-decoration: none;
+}
+
 #header {
   height: 100vh;
 }
@@ -469,18 +473,15 @@ nav {
   width: 100%;
   transform: translateY(-100px);
   opacity: 85%;
-  filter: saturate(170%);
+  filter: saturate(50%);
   transition: filter ease 0.3s;
 }
 
 .background__img:hover {
-  filter: saturate(190%);
+  filter: saturate(160%);
 }
 
-
 .header__description--container .header__img--text {
-  background-color: rgba(110, 134, 3, 0.685);
-  opacity: 90%;
   padding-left: 4px;
   border-top: 8px solid white;
   border-right: 8px solid white;
@@ -490,5 +491,12 @@ nav {
   width: 45%;
   font-size: 21px;
   color: rgb(255, 255, 255);
+  transition: all ease 400ms;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.header__description--container:hover .header__img--text {
+  background-color: rgba(110, 134, 3, 0.685);
   opacity: 100%;
 }
