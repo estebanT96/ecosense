@@ -1,5 +1,5 @@
 * {
-  font-family: "Afacad Flux", sans-serif;
+  font-family: "Cabin", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -83,15 +83,6 @@ nav {
   margin-right: 16px;
 }
 
-.fa-leaf {
-  font-size: 14px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: translate(-110%, -20%);
-  margin-right: 8px;
-}
-
 .analyze__link {
   background-color: #485de6;
   padding: 8px 24px;
@@ -118,7 +109,7 @@ nav {
 
 .nav__link a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
 }
@@ -135,7 +126,7 @@ nav {
 .analyze__area {
   color: white;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
   background-color: transparent;
 }
@@ -459,9 +450,9 @@ nav {
 
 .background__img {
   width: 100%;
-  transform: translateY(-100px);
+  transform: translateY(-1500px) scale(1.1);
   opacity: 85%;
-  filter: brightness(95%);
+  filter: brightness(100%);
   transition: filter ease 0.3s;
 }
 
@@ -477,7 +468,7 @@ nav {
 
 .vertical__border {
   position: absolute;
-  height: 10px;
+  height: 8px;
   width: 0;
   background-color: #201f1f;
   top: 0;
@@ -487,30 +478,32 @@ nav {
 }
 
 .header__description--container .header__img--text {
-  padding-left: 4px;
   position: absolute;
   left: -100px;
-  bottom: 0;
-  width: 40%;
-  font-size: 14px;
+  top: 0;
+  max-width: 1200px;
+  width: 100%;
+  font-size: 11px;
   color: rgb(255, 255, 255);
   transition: all ease 400ms;
   background-color: transparent;
   opacity: 1%;
   display: flex;
   flex-direction: column;
-  padding-top: 4px;
+  padding-top: 12px;
+  padding-left: 4px;
+  height: 170px;
+  padding-bottom: 50px;
 
 }
 
 .header__description--container:hover .header__img--text {
-  background-color: rgba(10, 173, 51, 0.178);
+  background-color: rgba(8, 80, 26, 0.603);
   opacity: 100%;
   left: 0;
-  bottom: 0;
+  top: 0;
 }
 
 .header__description--container:hover .vertical__border {
-  width: 100.7%;
-
+  width: 100.5%;
 }
