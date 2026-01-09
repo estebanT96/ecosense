@@ -7,7 +7,9 @@ const page = () => {
       <PageLayout.Header>
         <Placeholder height={64}>Header</Placeholder>
       </PageLayout.Header>
-      <PageLayout.Pane width={{min: '100px', default: '1000px', max: '500px'}}>
+      <PageLayout.Pane
+        width={{ min: "100px", default: "1000px", max: "500px" }}
+      >
         <Placeholder height={900}>Pane</Placeholder>
       </PageLayout.Pane>
       <PageLayout.Content>
