@@ -8,13 +8,13 @@ const page = () => {
         <Placeholder height={64}>Header</Placeholder>
       </PageLayout.Header>
       <PageLayout.Pane width={{min: '100px', default: '1000px', max: '500px'}}>
-        <Placeholder height={200}>Pane</Placeholder>
+        <Placeholder height={900}>Pane</Placeholder>
       </PageLayout.Pane>
-      <PageLayout.Content  >
+      <PageLayout.Content>
         <Placeholder height={400}>Content</Placeholder>
       </PageLayout.Content>
       <PageLayout.Footer>
-        <Placeholder height={64}>Footer</Placeholder>
+        <Placeholder height={182}>Footer</Placeholder>
       </PageLayout.Footer>
     </PageLayout>
   );
